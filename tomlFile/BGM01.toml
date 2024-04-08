@@ -1,0 +1,18 @@
+title = "" # 楽曲のタイトル
+artist = "" # 楽曲のアーティスト
+scoreDesigner = "" # 譜面制作者
+stageTitle = "" # ステージ名
+difficulty = "normal" # 難易度 easy | normal | hard
+musicFilePath = "hoge.mp3" # 必須
+bpm = 120 # 必須
+beatPerMeasure = 4 # 必須 1小節あたりの拍数
+musicVolume = 1.0 # 音楽の音量
+soundVolume = 1.0 # 効果音の音量
+
+[notes]
+defaultIntervalBeat = 6 # デフォルトのintervalBeat (地面に固定されたノーツが画面横サイズ分を移動するのにかかる拍数)(背景の移動速度もこれを参照する)
+firstBeatTimePos = 0 # 1拍目の時間(秒)
+rawCSV = '''
+1m+1b,rock
+4m+4b,bird
+'''
